@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2024-06-22T21:04:25.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.5.2" etag="HEKILlPx-lnJebSnK_2_" type="github">
+  <diagram name="Page-1" id="P51Xpbb8ME0YYpkC7H6Y">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="User" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="184" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Video Upload/Input block" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="107" y="98" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Process Video Button" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="125" y="348" width="165" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Video Processing" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="123" y="432" width="169" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Display Processed Video" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="669" width="186" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Display error message" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="236" y="669" width="172" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4877522786458333;exitY=0.9912109375;entryX=0.502060546875;entryY=-0.002109375;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.502060546875;exitY=0.9987890625;entryX=0.49946732954545453;entryY=-0.007123161764705882;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49946732954545453;exitY=0.9928768382352942;entryX=0.4994799371301775;entryY=-0.0014330621301775147;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Success" style="curved=1;startArrow=none;endArrow=block;exitX=0.01895518655549252;exitY=0.9964404585798816;entryX=0.4998739919354839;entryY=0.01171875;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="93" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Error" style="curved=1;startArrow=none;endArrow=block;exitX=0.9800046877048624;exitY=0.9964404585798816;entryX=0.4991142805232558;entryY=0.01171875;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
